@@ -1,131 +1,116 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Float & Sting Boxing
 
-Welcome SBI-code ,
+[View the live project here]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the website for Float & Sting Boxing Club. It is designed to be respinsive and accessible on a range of devices, allowing users to navigate the site easily.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## User Experience (UX)
 
-## Gitpod Reminders
+### User stories 
+* #### User Story 1: User friendly navigation and responsive design (must-have) 
+    As a first-time visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently.
+    
+    Acceptance Criteria:
+    * The website is fully responsive across various devices and screen sizes.
+    * Site layout and navigation are intuitive, allowing easy access to different sections.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    Tasks: 
+    * Apply responsive design principles using CSS3 to ensure the website is accessible on various devices.
+    * Arrange the site layout and navigation based on best practices, ensuring all key sections and pages are easily accessible.
 
-`python3 -m http.server`
+* #### User Story 2: Images and engaging descriptions (must-have)
+    As someone who is new to boxing, I want to see images and engaging descriptions of the boxing club offerings and the classes I can attend, so I can decide if it's the right place for me.
+    
+    Acceptance Criteria:
+    * The homepage features an image that spans across the page showcasing a boxer that is responsive and reveals other aspects of the image on larger screens.
+    * Engaging descriptions of the available classes are displayed clearly and concisely within the site's content.
+    * The homepage layout prominently features the images and descriptions in an uncluttered manner.
 
-A blue button should appear to click: _Make Public_,
+    Tasks: 
+    * Integrate images of boxers and some of the equipment available for use.
+    * Embed the provided engaging descriptions for the clubs atmosphere and list of classes available within the site's content.
+    * Design and implement a homepage layout that prominently features the images and descriptions.
 
-Another blue button should appear to click: _Open Browser_.
+* #### User Story 3: Showcase boxers and the club setting on a separate Gallery page (must-have)
+    As a boxing fan, I want to explore a selection showcased boxers on the website, so I can discover up and coming athletes, interrogate the setting and equipment available for use and decide if I might be interested in taking part in a class or a longer term membership.
+    
+    Acceptance Criteria:
+    * The website has a dedicated section for the list of classes and sessions.
+    * The club gallery page utilises the Bootstrap grid and card components for consistency in layout and responsiveness.
+    * Each card states the class name, image, dates, times, and age suitability.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+    Tasks:
+    * Create a responsive Club Gallery page featuring prominent boxers, the club setting and equipment.
 
-A blue button should appear to click: _Make Public_,
+* #### User Story 4: Location, contact details and opening hours (must-have)
+    As a prospective member, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my classes or get in touch with the club.
 
-Another blue button should appear to click: _Open Browser_.
+    Acceptance Criteria:
+    * The website contains a dedicated section for location, contact details, and opening hours.
+    * This section is clearly visible and accessible from all parts of the website.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    Tasks:
+    * Design and place a section for location, contact details, and opening hours using information.
+    * Ensure the contact section is clearly visible and accessible from all parts of the website, adhering to common design standards.
 
-To log into the Heroku toolbelt CLI:
+* #### User Story 5: Contact us inquiry form (must-have)
+    As a member, I want to book a group class or a one to one session using a simple booking inquiry form, so I can easily organise my workouts.
+    
+    Acceptance Criteria:
+    * A booking inquiry form for group classes or one to one sessions is easy to find, and the form is simple and easy to use.
+    * The form includes all necessary fields to gather details: Name, Email, Phone Number, Class Type and Message. Event types are: Group Class, One to One Training, Nutrition advice, Sports therapy.
+    * All fields on the form must be completed before the user can submit the form.
+    * When the form is completed correctly, the user is taken to a success page.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    Tasks: 
+    * Implement a booking inquiry form on the website.
+    * Implement HTML validation on the form to fit the requirements above.
+    * Create a success page to direct users to after submitting the form.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+* #### User Story 6: Visible pricing for sessions and membership levels (should-have)
+    As a potential frequent user, I want to find clear information about upcoming sessions, pricing, membership levels and any related discounts, so I can plan my visit within my budget and time constraints.
 
-### Connecting your Mongo database
+    Acceptance Criteria:
+    * Clear and accurate pricing information for sessions is displayed and easy to find.
+    * Membership and discount information stands out near pricing information. 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+    Tasks: 
+    * Display pricing for sessions using the provided rate information.
+    * Clearly display multiple session discount information with the pricing for sessions.
+    * Clearly display membership information with the pricing for sessions. 
 
-------
+* #### User Story 7: Testimonials (could-have)
+    As a prospective member, I want to read testimonials and reviews from other members, so I can gauge the experiences of others and feel more confident about visiting Float & Sting Boxing.
 
-## Release History
+    Acceptance Criteria:
+    * The website includes a section dedicated to displaying testimonials and reviews.
+    * Testimonials are clearly visible and presented in a format that is easy to read and navigate.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    Tasks: 
+    * Create a static section on the website for customer testimonials.
+    * Populate this section with a selection of pre-written testimonials.
 
-**June 18, 2024,** Add Mongo back into template
+* #### User Story 8: Newsletter sign up form (could-have)
+    As a regular member, I want to sign up for newsletters and updates, so I can stay informed about special offers, latest news, and upcoming events.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+    Acceptance Criteria:
+    * The website contains a sign up form for the club newsletter.
+    * The sign up form is placed in the footer on every page, so that users can easily find it.
 
-**May 28 2024:** Fix Mongo and Links installs
+    Tasks: 
+    * Integrate the newsletter sign-up form into the website footer.
 
-**April 26 2024:** Update node version to 16
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
