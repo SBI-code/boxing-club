@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background-color: #363537;
-    color: white;
+    color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -38,6 +38,20 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Main content */
