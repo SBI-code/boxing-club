@@ -100,6 +100,23 @@ This is the website for Float & Sting Boxing Club. It is designed to be respinsi
     Tasks: 
     * Integrate the newsletter sign-up form into the website footer.
 
+### Design
+
+#### Color Scheme
+* The main colors that are used are 
+
+#### Typography
+* 
+
+#### Imagery 
+* 
+
+### Wireframes 
+* Home Page Wireframe - [View]()
+* Mobile Wireframe - [View]()
+* Contact Us Wireframe - [View]()
+
+
 
 
 
