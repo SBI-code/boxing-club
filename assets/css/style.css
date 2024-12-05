@@ -116,6 +116,39 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 180%;
+    color: #363537;
+}
+
+#reasons h3 {
+    color: #363537;
+}
+
+#benefits-a > div,
+#benefits-b > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 footer {
     background-color: #363537;
@@ -175,6 +208,7 @@ footer {
         width: 300px;
         right: 50px;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
