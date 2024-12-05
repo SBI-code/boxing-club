@@ -90,6 +90,13 @@ main {
     margin-top: 43px;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/photo-1591117207239-788bf8de6c3b.jpg") no-repeat center center/cover;
+}
+
 /* Footer */
 footer {
     background-color: #363537;
