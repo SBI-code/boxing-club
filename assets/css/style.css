@@ -92,7 +92,21 @@ main {
 
 /* Footer */
 footer {
-    background-color: #4D936C;
+    background-color: #363537;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
 }
 
 /* Media query: tablets and larger (768px and up) */
