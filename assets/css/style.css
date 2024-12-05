@@ -52,6 +52,7 @@ header a {
     font-size: 140%;
     letter-spacing: 1px;
     list-style-type: none;
+    color: #FF571F;
 }
 
 #menu > li {
@@ -130,11 +131,11 @@ main {
     margin-bottom: 20px;
     text-align: center;
     font-size: 180%;
-    color: #363537;
+    color: #FF571F;
 }
 
 #reasons h3 {
-    color: #363537;
+    color: #FF571F;
 }
 
 #benefits-a > div,
@@ -234,6 +235,7 @@ footer {
         font-size: 250%;
         line-height: 75px;
         margin: 0 0.5rem;
+        color: #FF571F;
     }
 
     /* Main content */
