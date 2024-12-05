@@ -149,7 +149,7 @@ main {
     margin: 5px 0;
 }
 
-#cover-bg {
+#circle-cover-bg {
     background: url('../images/photo-1731955139061-5d251fe4e03c.avif') no-repeat top center / cover;
     height: 50vw;
     width: 50vw;
@@ -165,7 +165,7 @@ main {
     justify-content: center;
 }
 
-/* Footer */
+/* Footer */ 
 footer {
     background-color: #363537;
 }
@@ -225,11 +225,54 @@ footer {
         right: 50px;
     }
 
+    /* Reasons section */
+    #benefits-a, #benefits-b {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-a > div, #benefits-b > div {
+        width: 70%;
+    }
+
+    #benefits-b > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #ffffff;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Reason section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-a {
+        order: 1;
+    }
+
+    #benefits-a > div {
+        align-self: flex-start;
+    }
+
+    #benefits-b > div {
+        align-self: flex-end;
     }
 }
