@@ -1,6 +1,6 @@
 # Float & Sting Boxing
 
-[View the live project here]()
+[View the live project here](https://sbi-code.github.io/boxing-club/)
 
 This is the website for Float & Sting Boxing Club. It is designed to be respinsive and accessible on a range of devices, allowing users to navigate the site easily.
 
@@ -116,6 +116,9 @@ This is the website for Float & Sting Boxing Club. It is designed to be respinsi
 * Mobile Wireframe - [View]()
 * Contact Us Wireframe - [View]()
 
+## Features
+* Responsive on all device sizes, including mobile, tablet and desktop. 
+* Interactive elements such as the nav bar and contact form. 
 
 
 
