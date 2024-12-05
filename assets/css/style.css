@@ -45,7 +45,7 @@ h1 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     list-style-type: none;
 }
 
@@ -87,10 +87,34 @@ main {
     background-color: #F7EBE8;
     /* Main element to take up extra space and push footer down */
     flex: 1 0 auto;
-    margin-top: 83px;
+    margin-top: 43px;
 }
 
 /* Footer */
 footer {
     background-color: #4D936C;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */ 
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        padding-right: 1rem;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
