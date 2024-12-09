@@ -18,7 +18,9 @@ body {
     font-family: 'Encode Sans SC', sans-serif;
 }
 
-h, h2, h3 {
+h,
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -55,7 +57,7 @@ header a {
     color: #F7EBE8;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -111,13 +113,14 @@ main {
     position: absolute;
     bottom: 10px;
     width: 80%;
-    max-height: 70%; 
+    max-height: 70%;
     padding-top: 20px;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -138,8 +141,8 @@ main {
     color: #363537;
 }
 
-#benefits-a > div,
-#benefits-b > div {
+#benefits-a>div,
+#benefits-b>div {
     line-height: 20px;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
@@ -199,7 +202,7 @@ main {
     line-height: 0;
 }
 
-/* Footer */ 
+/* Footer */
 footer {
     background-color: #363537;
 }
@@ -218,9 +221,18 @@ footer {
     color: #ffffff;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */ 
+
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -233,7 +245,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -261,37 +273,51 @@ footer {
     }
 
     /* Reasons section */
-    #benefits-a, #benefits-b {
+    #benefits-a,
+    #benefits-b {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-a > div, #benefits-b > div {
+    #benefits-a>div,
+    #benefits-b>div {
         width: 70%;
     }
 
-    #benefits-b > div {
+    #benefits-b>div {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery page */
+    #photos {
+        column-count: 3;
+    }
 }
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #ffffff;
+    }
+
+    /* Gallery page */
+    #photos {
+        column-count: 4;
     }
 }
 
 @media screen and (min-width: 1200px) {
+
     /* Reason section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -303,11 +329,11 @@ footer {
         order: 1;
     }
 
-    #benefits-a > div {
+    #benefits-a>div {
         align-self: flex-start;
     }
 
-    #benefits-b > div {
+    #benefits-b>div {
         align-self: flex-end;
     }
 }
