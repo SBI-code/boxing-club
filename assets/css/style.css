@@ -100,7 +100,7 @@ main {
 #hero {
     height: 500px;
     width: 100%;
-    background: url("../images/photo-1591117207239-788bf8de6c3b.avif") no-repeat center center/cover;
+    background: url("../images/hero1.avif") no-repeat center center/cover;
     position: relative;
 }
 
@@ -155,7 +155,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url('../images/photo-1731955139061-5d251fe4e03c.avif') no-repeat top center / cover;
+    background: url('../images/main1.avif') no-repeat top center / cover;
     height: 50vw;
     width: 50vw;
     margin-bottom: 20px;
@@ -172,7 +172,7 @@ main {
 
 /* Session Times section */
 #times {
-    background: url('../images/photo-1716307035615-1c6465a32ef2.avif') no-repeat center/cover;
+    background: url('../images/footer.avif') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
 }
