@@ -120,7 +120,29 @@ This is the website for Float & Sting Boxing Club. It is designed to be respinsi
 * Responsive on all device sizes, including mobile, tablet and desktop. 
 * Interactive elements such as the nav bar and contact form. 
 
+## Technologies Used
 
+### Languages Used
+
+* HTML5
+* CSS3
+
+### Frameworks, Libraries & Programs Used
+
+1. Hover.css:
+    * Hover.css was used on the navbar to underline each page when you hover over the title.
+1. Google Fonts:
+    * Google fonts were used to import the 'Encode Sans SC' and 'Roboto' fonts into the style.css file which is used on all pages throughout the project.
+1. Font Awesome:
+    * Font Awesome was used on all pages throughout the website to add icons throughout all pages for aesthetic and UX purposes.
+1. Git:
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+1. Unsplash and Pexels:
+    * Unsplash and Pexels were used to download free photos for all the pages of the website.
+1. Balsamiq:
+    * Balsamiq was used to create the wireframes during the design process.
 
 
 
