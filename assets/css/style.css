@@ -196,6 +196,7 @@ main {
 #photos img {
     width: 100%;
     line-height: 1em;
+    vertical-align: bottom;
 }
 
 #photos {

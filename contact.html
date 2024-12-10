@@ -37,9 +37,53 @@
     </header>
 
     <!-- Main content -->
-     <main>
-        
-     </main>
+    <main>
+        <section id="contact">
+            <div id="enquiries">
+                <div id="enquiries-title">
+                    <h2><i class="fa-solid fa-pen-to-square"></i> Get in contact with us!</h2>
+                    <p>Please fill in your details below, let us know what kind of session you are interested in and a member of our team will be in contact as soon as
+                        possible.</p>
+                    <p>You can also check out our <a href="index.html#sessions">session times</a> to see what we have on.</p>
+                </div>
+                <br>
+                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name" class="text-input" required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" class="text-input" required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email_address" id="email-address" class="text-input" required>
+                    <br>
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="onetoone">One to One Session</label>
+                            <input type="radio" name="booking_choice" id="onetoone" value="onetoone" required checked>
+                        </div>
+                        <div>
+                            <label for="womensclass">Womens Class</label>
+                            <input type="radio" name="booking_choice" id="womensclass" value="womensclass" required>
+                        </div>
+                        <div>
+                            <label for="kidsclub">Kids Club</label>
+                            <input type="radio" name="booking_choice" id="kidsclub" value="kidsclub" required>
+                        </div>
+                        <div>
+                            <label for="nutritionadvice">Nutrition Advice</label>
+                            <input type="radio" name="booking_choice" id="nutritionadvice" value="nutritionadvice"
+                                required>
+                        </div>
+                        <div>
+                            <label for="sportstherapy">Sports Therapy</label>
+                            <input type="radio" name="booking_choice" id="sportstherapy" value="sportstherapy" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="join-button">Let's go!</button>
+                </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
