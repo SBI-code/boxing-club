@@ -196,11 +196,75 @@ main {
 #photos img {
     width: 100%;
     line-height: 1em;
-    vertical-align: bottom;
 }
 
 #photos {
     line-height: 0;
+}
+
+/* Contact page */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form */
+#contact {
+    background-image: url("../images/match1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+}
+
+#session-times {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#contact-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: list-item;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #FF571F;
+    color: #fafafa;
 }
 
 /* Footer */
