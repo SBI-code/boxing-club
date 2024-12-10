@@ -18,9 +18,7 @@ body {
     font-family: 'Encode Sans SC', sans-serif;
 }
 
-h,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -51,13 +49,13 @@ header a {
 }
 
 #menu {
-    font-size: 140%;
+    font-size: 130%;
     letter-spacing: 1px;
     list-style-type: none;
     color: #F7EBE8;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -65,13 +63,13 @@ header a {
     border-bottom: 1px solid #ffffff;
 }
 
-/* Navbar styles with drop down toggle */
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #363537;
     width: 100%;
     left: 0;
-    padding: 0 1em;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #363537;
     display: none;
     top: 100%;
@@ -296,21 +294,20 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        padding-right: 1rem;
         width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -322,7 +319,6 @@ footer {
         font-size: 230%;
         line-height: 75px;
         margin: 0 0.5rem;
-        color: #F7EBE8;
     }
 
     /* Main content */
