@@ -93,7 +93,7 @@ main {
     background-color: #F7EBE8;
     /* Main element to take up extra space and push footer down */
     flex: 1 0 auto;
-    margin-top: 43px;
+    margin-top: 40px;
 }
 
 /* Hero section */
@@ -205,7 +205,7 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 30px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -324,7 +324,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 80px;
+        margin-top: 10px;
     }
 
     /* Hero */
