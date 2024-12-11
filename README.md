@@ -119,10 +119,10 @@ Potential features to include:
 * The main colors that are used are 
 
 #### Typography
-* 
+* The Encode Sans SC and Roboto fonts are used thorughout the website with Sans Serif as the fallback font in case for any reason the chosen fonts aren't being imported correctly to the site. Both Encode Sans SC and Roboto fonts are clear and well structured so they are suited to the genre of the site.
 
 #### Imagery 
-* 
+* The images used are relevent to teh sites purpouse and are intended to attract the users attention. The hero image responds to adjusted screen sizes and reveals more of the image. The reasons section image has been made circular for smaller screens and extends to an oval shape on larger screens revealing more image content. 
 
 ### Wireframes 
 * Home Page Wireframe - [View]()
@@ -133,12 +133,14 @@ Potential features to include:
 * Responsive on all device sizes, including mobile, tablet and desktop. 
 * Interactive elements such as the nav bar and contact form. 
 
+
+
 ## Technologies Used
 
 ### Languages Used
 
-* HTML5
-* CSS3
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -172,21 +174,25 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 ![Screenshot of the form submission](assets/images/contact-form-submission-test.png) 
 
 * HTML 
-  * No errors or warnings were found when the code was run through the HTML validation checker.
+  * The W3C Markup Validator Service was used to validate every page of the project to ensure there were no syntax errors or warnings in the project.
 
   ![Screenshot of the html results](assets/images/html-checker-results.png)
  
 * CSS
-  * No errors or warnings were found when the code was run through the CSS validation service. 
+  * The W3C CSS Validator Service was used to validate every page of the project to ensure there were no syntax errors or warnings in the project.
 
   ![Screenshot of the css results](assets/images/css-checker-results.png) 
+
+
 
 
 ### Acknowledgements
 
 * My Mentor for continuous helpful feedback.
 
-* Tutor support at Code Institute for their support.
+* Tutor support at Code Institute for their amazing help and support.
+
+* I would also like to credit the Love Running project walkthrough, for inspiration on the layout of the Home, Gallery and Contact pages for the header, main, footer and basic page design.
 
 
 
