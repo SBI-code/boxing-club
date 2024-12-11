@@ -362,6 +362,10 @@ footer {
         column-count: 3;
     }
 
+    .gallery-heading {
+        display: none;
+    }
+
     /* Contact Form */
     #contact {
         background-position: center;
