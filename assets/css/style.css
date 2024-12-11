@@ -205,7 +205,7 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 30px;
+    margin-top: 40px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -230,7 +230,7 @@ main {
 #contact-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 20px;
 }
 
 #contact-form>h2 {
@@ -324,7 +324,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 10px;
+        margin-top: 60px;
     }
 
     /* Hero */
@@ -354,6 +354,28 @@ footer {
     /* Gallery page */
     #photos {
         column-count: 3;
+    }
+
+    /* Contact Form */
+    #contact {
+        background-position: center;
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 450px;
+        position: absolute;
+        left: 10%;
+        top: 40px;
+    }
+
+    .text-input:hover {
+        border-color: #FF571F;
+    }
+
+    .join-button:hover {
+        background-color: #4D936C;
+        color: #ffffff;
     }
 }
 
