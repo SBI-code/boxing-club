@@ -88,6 +88,10 @@ nav {
     font-size: 2rem;
 }
 
+.nav-display {
+    display: none;
+}
+
 /* Main content */
 main {
     background-color: #F7EBE8;
