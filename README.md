@@ -145,9 +145,25 @@ This is the website for Float & Sting Boxing Club. It is designed to be respinsi
     * Balsamiq was used to create the wireframes during the design process.
 
 
+## Testing
+
+I ran the page through Lighthouse to ensure my site is easy to read and nicely accessible.
+
+![Screenshot of the results](assets/images/lighthouse-performance-test.png) 
+
+- I tested my site on Chrome, Safari and Firefox, and it works well on these browsers.
+- I tested all links on pages to make sure they were working.
+- I tested all external links to make sure they work, and link in a separate tab to the correct site.
+- I tested that the form works, and submits the all the information correctly.
 
 
 
+
+### Acknowledgements
+
+* My Mentor for continuous helpful feedback.
+
+* Tutor support at Code Institute for their support.
 
 
 
