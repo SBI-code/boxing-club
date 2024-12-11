@@ -4,6 +4,19 @@
 
 This is the website for Float & Sting Boxing Club. It is designed to be respinsive and accessible on a range of devices, allowing users to navigate the site easily.
 
+External user’s goal:
+* The sites users are boxing club members and potential members, who want to know more about the club, sessions, other treatments and events.  
+
+Site owner's goal:
+* The boxing club is interested in attracting and retaining members. 
+
+Potential features to include:
+* Showcase photos of people boxing, having fun, the equipment that is available to use and other media to attract and motivate people to come. 
+* Provide detail on the organised classes, one to one sessions and their schedule.
+* Provide information on the boxing clubs location, opening hours, contact details and any external resources. 
+
+![Screenshot of responsive design](assets/images/site-responsive-design.png)
+
 ## User Experience (UX)
 
 ### User stories 
@@ -151,12 +164,22 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 
 ![Screenshot of the results](assets/images/lighthouse-performance-test.png) 
 
-- I tested my site on Chrome, Safari and Firefox, and it works well on these browsers.
-- I tested all links on pages to make sure they were working.
-- I tested all external links to make sure they work, and link in a separate tab to the correct site.
-- I tested that the form works, and submits the all the information correctly.
+* I tested the site on Google Chrome, Safari and Firefox, and it functions well on these browsers.
+* I tested all links on the pages to ensure they were working as intended.
+* I tested all external links to ensure they work.
+* I tested the contact form and it submits the all the information succesfully.
 
+![Screenshot of the form submission](assets/images/contact-form-submission-test.png) 
 
+* HTML 
+  * No errors or warnings were found when the code was run through the HTML validation checker.
+
+  ![Screenshot of the html results](assets/images/html-checker-results.png)
+ 
+* CSS
+  * No errors or warnings were found when the code was run through the CSS validation service. 
+
+  ![Screenshot of the css results](assets/images/css-checker-results.png) 
 
 
 ### Acknowledgements
