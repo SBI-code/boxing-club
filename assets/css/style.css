@@ -88,7 +88,8 @@ nav {
     font-size: 2rem;
 }
 
-.nav-display {
+/* Class created to prevent empty label error for html */
+.nav-burger {
     display: none;
 }
 
