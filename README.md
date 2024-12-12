@@ -125,9 +125,24 @@ Potential features to include:
 * The images used are relevent to teh sites purpouse and are intended to attract the users attention. The hero image responds to adjusted screen sizes and reveals more of the image. The reasons section image has been made circular for smaller screens and extends to an oval shape on larger screens revealing more image content. 
 
 ### Wireframes 
-* Home Page Wireframe - [View]()
-* Mobile Wireframe - [View]()
-* Contact Us Wireframe - [View]()
+* When designing and planning content positioning for the website I used wireframe to plot the layout for all the pages on mobile first and being responsive on bigger screens.     
+
+The following displays the different interfaces on Home, Gallery and Contact pages for mobile, tablet and desktop. 
+
+* Mobile screens from 280px
+
+
+![image of the wireframes for mobile](assets/images/wireframe-mobile-home-gallery-contact.png) 
+
+* Tablet screens from 768px
+
+
+![image of the wireframes for tablet](assets/images/wireframe-tablet-home-gallery-contact.png) 
+
+* Desktop screens from 1200px
+
+
+![image of the wireframes for desktop](assets/images/wireframe-desktop-home-gallery-contact.png)
 
 ## Features
 * Responsive on all device sizes, including mobile, tablet and desktop. 
