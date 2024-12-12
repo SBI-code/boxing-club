@@ -105,7 +105,7 @@ main {
 #hero {
     height: 500px;
     width: 100%;
-    background: url("../images/hero2.jpg") no-repeat center center/cover;
+    background: url("../images/hero1.avif") no-repeat center center/cover;
     position: relative;
 }
 
@@ -178,7 +178,7 @@ main {
 
 /* Session Times section */
 #times {
-    background: url('../images/footer.avif') no-repeat center/cover;
+    background: url('../images/footer.webp') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
 }
@@ -218,7 +218,7 @@ main {
 
 /* Form */
 #contact {
-    background-image: url("../images/match1.jpg");
+    background-image: url("../images/match1.webp");
     background-size: cover;
     background-position: center;
     padding: 50px 10% 0 10%;
