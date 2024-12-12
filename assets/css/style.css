@@ -352,7 +352,7 @@ footer {
         width: 70%;
     }
 
-    #benefits-b>div {
+    #benefits-a>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -418,15 +418,15 @@ footer {
         order: 0
     }
 
-    #benefits-a {
+    #benefits-b {
         order: 1;
     }
 
-    #benefits-a>div {
+    #benefits-b>div {
         align-self: flex-start;
     }
 
-    #benefits-b>div {
+    #benefits-a>div {
         align-self: flex-end;
     }
 }
