@@ -33,7 +33,7 @@ h1, h2, h3 {
 header {
     background-color: #363537;
     color: #ffffff;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -221,7 +221,7 @@ main {
     background-image: url("../images/match1.jpg");
     background-size: cover;
     background-position: center;
-    padding: 20px 10% 0 10%;
+    padding: 50px 10% 0 10%;
     flex-grow: 1;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
