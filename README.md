@@ -182,7 +182,11 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 * Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, selct a session preference and submit the form.
 
 ### Future Features 
-* It wou
+* I would like to present testimonials and reviews from other members so they can read the experiences from others and make a more infomed decision. 
+* I would also like to create a newsletter sign up form for users to stay updated on special offers, the latest news and upcoming events.
+* It would be great to include an area to the contact page that shows the Clubs Address, Phone number, Email address and Opening times. 
+* Adding a transactional element to the website would be an invaluable feature to allow members to purchase equiptment through the site and book sessions online. 
+* An account signup area where members can create their own accounts that would store their data, subscription, session and purchase information. 
 
 ## Technologies Used
 
@@ -258,10 +262,6 @@ I had a mid-project rung thorugh meeting with my mentor who reviewed my HTML and
 * Added hidden-heading class to gallery heading to prevent the heading from partially showing in screen sizes lower than tablet size.
 * Reason section paragraphs showing the wrong way around on larger screens so reviewed the CSS and adjusted the styles to target to correct paragraphs. 
 * Bug was causing the bottom of the contact form to overflow past the footer when reducing the vertical height of the site on desktop. Corrected by removing the absolute positioning that was previously set and added a margin bottom. 
-
-## Known Bugs
-
-
 
 ## Deployment
 
