@@ -207,12 +207,8 @@ The following displays the different interfaces on Home, Gallery and Contact pag
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. GitHub:
     * GitHub is used to store the projects code after being pushed from Git.
-1. Unsplash and Pexels:
-    * Unsplash and Pexels were used to download free photos for all the pages of the website.
 1. Balsamiq:
     * Balsamiq was used to create the wireframes during the design process.
-1. [TinyJPG](https://tinyjpg.com/) and [Compressor](https://compressor.io/): 
-    * TinyJPG and Compressor were used to convert JPG images to WebP format and compress the sizes of the images to aid load times.  
 
 ## Testing
 
@@ -299,12 +295,19 @@ The project was deployed to GitHub Pages using the following steps
 
     I could also click on the 'Gitpod' button in the top righthand corner of my repository page on github which would redirect me straight into my workspace.
 
+## Credits
+
+### Media
+* [Font Awesome](https://fontawesome.com/) was used to import all the icons in the header, reasons section, footer, and contact header.
+* [TinyJPG](https://tinyjpg.com/) and [Compressor](https://compressor.io/) were used to convert JPG images to WebP format and compress the sizes of the images to aid load times.  
+* [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/) were used to download free photos for all the pages of the website.
+* [Coolors](https://coolors.co/) was used to create a bespoke colour palate and gave the direct hex codes to apply to the stylesheet. 
+* Social media links used in the footer link to the real social media sites.
+
 ### Acknowledgements
 
 * My Mentor for continuous helpful feedback.
-
 * Tutor support at Code Institute for their amazing help and support.
-
 * I would also like to credit the Love Running project walkthrough, for inspiration on the layout and style of the Home, Gallery and Contact pages for the header, main, footer and basic page design.
 
 
