@@ -374,13 +374,15 @@ footer {
 
     #contact-form {
         max-width: 450px;
-        position: absolute;
-        left: 10%;
-        top: 40px;
+        margin-bottom: 2rem;
     }
 
     .text-input:hover {
         border-color: #FF571F;
+    }
+
+    .radio-buttons {
+        column-count: 2;
     }
 
     .join-button:hover {
