@@ -216,11 +216,6 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 
 ![Screenshot of the results](assets/images/lighthouse-performance-test.png) 
 
-* I tested the site on Google Chrome, Safari and Firefox, and it functions well on these browsers.
-* I tested all links on the pages to ensure they were working as intended.
-* I tested all external links to ensure they work.
-* I tested the contact form and it submits the all the information succesfully.
-
 ![Screenshot of the form submission](assets/images/contact-form-submission-test.png) 
 
 * HTML 
@@ -232,6 +227,24 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
   * The W3C CSS Validator Service was used to validate every page of the project to ensure there were no syntax errors or warnings in the project.
 
   ![Screenshot of the css results](assets/images/css-checker-results.png) 
+
+### Further Testing
+* I tested the site on Google Chrome, Safari and Firefox, and it functions well on these browsers.
+* I tested all links on the pages to ensure they were working as intended.
+* I tested all external links to ensure they work.
+* I tested the contact form and it submits the all the information succesfully.
+* Family members were asked to review the site and test the responsiveness to find any bugs and/or user experience issues.
+
+### Testing User Stories from User Experience (UX) Section
+* First time visitor 
+    - As a first time visitor I was able to easily understand the purpose of the site and the services offered.
+    - I was able to read more about the resons I should consider joining which were laid out in a clear and consise manner. 
+    - I could navigate between the different pages easily reviewing the gallery which presented interesting images giving me an idea of what to expect. 
+    - I was able to comeplte and successfuly submit the form on the contact page. 
+
+* Returning visitor
+    - I was able to scroll to the bottom of the page to clearly see the session times section where I got the information I was looking for on session dates. 
+    - I found links to the social media pages so I can go to the communities there and interact with other members and get up to date news.
 
 ## Solved Bugs
 
