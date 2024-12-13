@@ -2,8 +2,8 @@
 
 [View the live project here](https://sbi-code.github.io/boxing-club/)
 
-This is the website for Float & Sting Boxing Club. It is designed to be respinsive and accessible on a range of devices, allowing users to navigate the site easily. 
-Care and thought was put into the club name, which pays homage to the professional boxer and activist Muhammad Ali by playing on a famous quote from him; "Float like a butterfly. Sting like a bee. You can't hit what your eyes don't see." to be admired by any boxing fantic.
+This is the website for Float & Sting Boxing Club. It is designed to be responsive and accessible on a range of devices, allowing users to navigate the site easily. 
+Care and thought was put into the club name, which pays homage to the professional boxer and activist Muhammad Ali by playing on a famous quote from him; "Float like a butterfly. Sting like a bee. You can't hit what your eyes don't see." to be admired by any boxing fanatic.
 
 External user’s goal:
 * The sites users are boxing club members and potential members, who want to know more about the club, sessions, other treatments and events.  
@@ -116,14 +116,14 @@ Potential features to include:
 
 ### Design
 
-#### Color Scheme
-* The main colors that are used throughout the website pages are Jet #363537, White #ffffff and Seashell #F7EBE8.
+#### Colour Scheme
+* The main colours that are used throughout the website pages are Jet #363537, White #ffffff and Seashell #F7EBE8.
 
 #### Typography
-* The Encode Sans SC and Roboto fonts are used thorughout the website with Sans Serif as the fallback font in case for any reason the chosen fonts aren't being imported correctly to the site. Both Encode Sans SC and Roboto fonts are clear and well structured so they are suited to the genre of the site.
+* The Encode Sans SC and Roboto fonts are used throughout the website with Sans Serif as the fallback font in case for any reason the chosen fonts aren't being imported correctly to the site. Both Encode Sans SC and Roboto fonts are clear and well structured so they are suited to the genre of the site.
 
 #### Imagery 
-* The images used are relevent to the sites purpouse and are intended to attract the users attention. The hero image responds to adjusted screen sizes and reveals more of the image.
+* The images used are relevant to the sites purpose and are intended to attract the users attention. The hero image responds to adjusted screen sizes and reveals more of the image.
 
 ### Wireframes 
 * When designing and planning content positioning for the website I used wireframe to plot the layout for all the pages on mobile first and being responsive on bigger screens.     
@@ -156,8 +156,8 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 
 * Homepage 
     - The homepage features a hero image of a boxer throwing a punch, capturing the essence of the club.
-    - The reasons section focuses on four main reasons why people should join the club. The sections are responsive to changes in screen size. They are ordered vertically for mobnile screens and adjust their position when transitioning to tablet and larger screen sizes. 
-    - Includes an image of a professional boxer sparring which on mobnile screens appears below the reasons section but is resaponsive and moves to the center of the section on larger screens. 
+    - The reasons section focuses on four main reasons why people should join the club. The sections are responsive to changes in screen size. They are ordered vertically for mobile screens and adjust their position when transitioning to tablet and larger screen sizes. 
+    - Includes an image of a professional boxer sparring which on mobile screens appears below the reasons section but is responsive and moves to the centre of the section on larger screens. 
     - The session times section at the bottom shows the different types of sessions the club offers, how long the sessions are and the days and times they take place.
 
 * Footer
@@ -169,9 +169,9 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 * The images are responsive on different screen sizes and the number of columns displayed varies depending on the screen size.
 
 #### Contact page 
-* On this page there is some imformative text instructing how to fill out the form and a useful link to the index page session times section to help users with their session selection.
+* On this page there is some informative text instructing how to fill out the form and a useful link to the index page session times section to help users with their session selection.
 * The contact form contains placeholder text which gives the user an example of what data should be input.
-* This section is simple making it clear on what the user is expected to do if they are interested in bokking a session of their choosing.
+* This section is simple making it clear on what the user is expected to do if they are interested in booking a session of their choosing.
 
 #### Interactive elements
 * Favicon used to insert boxing glove icon into the head section of the HTML code.
@@ -179,13 +179,13 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 * Menu links to all three pages allowing users to navigate between the content. 
 * The header logo links back to the index page. 
 * Social media icons on all page footers that open up sites in a new browser tab. 
-* Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, selct a session preference and submit the form.
+* Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, select a session preference and submit the form.
 
 ### Future Features 
-* I would like to present testimonials and reviews from other members so they can read the experiences from others and make a more infomed decision. 
+* I would like to present testimonials and reviews from other members so they can read the experiences from others and make a more informed decision. 
 * I would also like to create a newsletter sign up form for users to stay updated on special offers, the latest news and upcoming events.
 * It would be great to include an area to the contact page that shows the Clubs Address, Phone number, Email address and Opening times. 
-* Adding a transactional element to the website would be an invaluable feature to allow members to purchase equiptment through the site and book sessions online. 
+* Adding a transactional element to the website would be an invaluable feature to allow members to purchase equipment through the site and book sessions online. 
 * An account signup area where members can create their own accounts that would store their data, subscription, session and purchase information. 
 
 ## Technologies Used
@@ -232,15 +232,15 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 * I tested the site on Google Chrome, Safari and Firefox, and it functions well on these browsers.
 * I tested all links on the pages to ensure they were working as intended.
 * I tested all external links to ensure they work.
-* I tested the contact form and it submits the all the information succesfully.
+* I tested the contact form and it submits the all the information successfully.
 * Family members were asked to review the site and test the responsiveness to find any bugs and/or user experience issues.
 
 ### Testing User Stories from User Experience (UX) Section
 * First time visitor 
     - As a first time visitor I was able to easily understand the purpose of the site and the services offered.
-    - I was able to read more about the resons I should consider joining which were laid out in a clear and consise manner. 
+    - I was able to read more about the reasons I should consider joining which were laid out in a clear and concise manner. 
     - I could navigate between the different pages easily reviewing the gallery which presented interesting images giving me an idea of what to expect. 
-    - I was able to comeplte and successfuly submit the form on the contact page. 
+    - I was able to comeplete and successfully submit the form on the contact page. 
 
 * Returning visitor
     - I was able to scroll to the bottom of the page to clearly see the session times section where I got the information I was looking for on session dates. 
@@ -249,11 +249,11 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 ## Solved Bugs
 
 Sufficed to say there have been plenty of learning opportunities while developing this site.
-I ran my code through HTML and CSS validation services at various points pereodically and used Google Developer Tools to identify and correct style issues. 
-I had a mid-project rung thorugh meeting with my mentor who reviewed my HTML and CSS for the Home page before I went on to create the Gallery and Contact pages to save time with any issues that might have come up.
+I ran my code through HTML and CSS validation services at various points periodically and used Google Developer Tools to identify and correct style issues. 
+I had a mid-project run through meeting with my mentor who reviewed my HTML and CSS for the Home page before I went on to create the Gallery and Contact pages to save time with any issues that might have come up.
 
 #### My process for approaching issues has been as follows, upon identifying an error: 
-* I reviewed the course content to go back to frist principles see if I could find a solution there. 
+* I reviewed the course content to go back to first principles see if I could find a solution there. 
 * Research online.
 * Review slack channels to see if other students ran into the same issue.
 * If I spent more that 30 mins with no solution, I would contact tutor support for help and advice which happened a few times to correct minor errors in the styling. 
@@ -282,7 +282,7 @@ I had a mid-project rung thorugh meeting with my mentor who reviewed my HTML and
     - git commit -m "commit description" - to commit changes to a file to the queue ready for the final command.
     - git push - used to send the committed files to the Github repository.
 
-For my git commits I used the following nameing convention to easily identify different types of commit messages; 
+For my git commits I used the following naming convention to easily identify different types of commit messages; 
 - Feature - feat
 - Bug fix - fix
 - CSS changes - style
