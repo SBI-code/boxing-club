@@ -2,7 +2,8 @@
 
 [View the live project here](https://sbi-code.github.io/boxing-club/)
 
-This is the website for Float & Sting Boxing Club. It is designed to be respinsive and accessible on a range of devices, allowing users to navigate the site easily.
+This is the website for Float & Sting Boxing Club. It is designed to be respinsive and accessible on a range of devices, allowing users to navigate the site easily. 
+Care and thought was put into the club name, which pays homage to the professional boxer and activist Muhammad Ali by playing on a famous quote from him; "Float like a butterfly. Sting like a bee. You can't hit what your eyes don't see." to be admired by any boxing fantic.
 
 External user’s goal:
 * The sites users are boxing club members and potential members, who want to know more about the club, sessions, other treatments and events.  
@@ -116,13 +117,13 @@ Potential features to include:
 ### Design
 
 #### Color Scheme
-* The main colors that are used are 
+* The main colors that are used throughout the website pages are Jet #363537, White #ffffff and Seashell #F7EBE8.
 
 #### Typography
 * The Encode Sans SC and Roboto fonts are used thorughout the website with Sans Serif as the fallback font in case for any reason the chosen fonts aren't being imported correctly to the site. Both Encode Sans SC and Roboto fonts are clear and well structured so they are suited to the genre of the site.
 
 #### Imagery 
-* The images used are relevent to teh sites purpouse and are intended to attract the users attention. The hero image responds to adjusted screen sizes and reveals more of the image. The reasons section image has been made circular for smaller screens and extends to an oval shape on larger screens revealing more image content. 
+* The images used are relevent to the sites purpouse and are intended to attract the users attention. The hero image responds to adjusted screen sizes and reveals more of the image.
 
 ### Wireframes 
 * When designing and planning content positioning for the website I used wireframe to plot the layout for all the pages on mobile first and being responsive on bigger screens.     
@@ -142,10 +143,42 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 ![image of the wireframes for desktop](assets/images/wireframe-desktop-home-gallery-contact.png)
 
 ## Features
-* Responsive on all device sizes, including mobile, tablet and desktop. 
-* Interactive elements such as the nav bar and contact form. 
+### Responsive on all device sizes, including mobile, tablet and desktop. 
+#### Home page (Index)
+* Navigation Bar 
+- Displays hamburger icon on smaller screens that expands a toggled menu. 
+- On larger screens over 768px the menu fully expands to display all page links on the left.
 
+* Header
+- Displays at the top of all three pages with an identical style. 
+- Links to all three pages. 
+- Google fonts was used to give the logo header a different style to the main content. 
 
+* Homepage 
+- The homepage features a hero image of a boxer throwing a punch, capturing the essence of the club.
+- The reasons section focuses on four main reasons why people should join the club. The sections are responsive to changes in screen size. They are ordered vertically for mobnile screens and adjust their position when transitioning to tablet and larger screen sizes. 
+- Includes an image of a professional boxer sparring which on mobnile screens appears below the reasons section but is resaponsive and moves to the center of the section on larger screens. 
+- The session times section at the bottom shows the different types of sessions the club offers, how long the sessions are and the days and times they take place.
+
+* Footer
+- This section includes links to Facebook, Twitter, YouTube and Instagram. The spacing of the links automatically adjusts to the screen width. 
+
+#### Gallery page
+* The gallery page is designed to show potential members what to expect to see at the club and shows great examples of classes, one to one sessions and kids club. 
+* No text has been used on this page to keep the focus on the purpose of showcasing images.
+* The images are responsive on different screen sizes and the number of columns displayed varies depending on the screen size.
+
+#### Contact page 
+* On this page there is some imformative text instructing how to fill out the form and a useful link to the index page session times section to help users with their session selection.
+The form contains placeholder text, giving an example of what data the user should input.
+Both sections are basic with no distractions, it is clear on what the user is expected to do, if they are interested in taking their interest to the next level in becoming a member, and joining the club.
+#### Interactive elements:
+    - Navbar display functional hamburger icon that extends to show menu. 
+    - Menu links to all three pages allowing users to navigate between the content. 
+    - The header logo links back to the index page. 
+    - Social media icons on all page footers that open up sites in a new browser tab. 
+    - Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, selct a session preference and submit the form. 
+* Favicon used to insert boxing glove icon into the head section of the HTML code. 
 
 ## Technologies Used
 
@@ -170,7 +203,8 @@ The following displays the different interfaces on Home, Gallery and Contact pag
     * Unsplash and Pexels were used to download free photos for all the pages of the website.
 1. Balsamiq:
     * Balsamiq was used to create the wireframes during the design process.
-
+1. [TinyJPG](https://tinyjpg.com/) and [Compressor](https://compressor.io/): 
+    * TinyJPG and Compressor were used to convert JPG images to WebP format and compress the sizes of the images to aid load times.  
 
 ## Testing
 
@@ -195,6 +229,35 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 
   ![Screenshot of the css results](assets/images/css-checker-results.png) 
 
+## Solved Bugs
+
+Sufficed to say there have been plenty of learning opportunities while developing this site.
+I ran my code through HTML and CSS validation services at various points pereodically and used Google Developer Tools to identify and correct style issues. 
+I had a mid-project rung thorugh meeting with my mentor who reviewed my HTML and CSS for the Home page before I went on to create the Gallery and Contact pages to save time with any issues that might have come up.
+
+#### My process for approaching issues has been as follows, upon identifying an error: 
+* I reviewed the course content to go back to frist principles see if I could find a solution there. 
+* Research online.
+* Review slack channels to see if other students ran into the same issue.
+* If I spent more that 30 mins with no solution, I would contact tutor support for help and advice which happened a few times to correct minor errors in the styling. 
+
+#### Details of specific fixes: 
+* Fixed margin-top for main element so it appears under the fixed header.
+* Fixed bug that was preventing the social network icons styling to apply to the gallery page footer by removing an extra space in the id text.
+* Inserted cropped version of the Hero image so it is better positioned on larger screens as image was not rendering correctly.
+* The margin for the home page was causing a white line to appear just above the Hero image. This was fixed by reducing the margin size of the main content.
+* Bug that was causing the logo text to wrap when the screen was being adjusted between 770 to 820px. Corrected using ‘nowrap’ and adjusting menu and logo sizes. 
+* Empty navbar form label error highlighted by web accessibility evaluation tool (WAVE). Corrected by adding an ‘aria-hidden’ attribute to the label element and adding a span to the label with a class and content value which was set to ‘display: none’. The HTML was replicated onto the Gallery and Contact pages.
+* Removed redundant links from menu nav for all pages as highlighted by WAVE.
+* Contrast error flagged by WAVE on contact page between submit button background and submit button text. Corrected by changing the background to a darker colour.
+* Added missing heading to Gallery main section and set display to none.
+* Added hidden-heading class to gallery heading to prevent the heading from partially showing in screen sizes lower than tablet size.
+* Reason section paragraphs showing the wrong way around on larger screens so reviewed the CSS and adjusted the styles to target to correct paragraphs. 
+* Bug was causing the bottom of the contact form to overflow past the footer when reducing the vertical height of the site on desktop. Corrected by removing the absolute positioning that was previously set and added a margin bottom. 
+
+## Known Bugs
+
+
 
 ## Deployment
 
@@ -205,6 +268,13 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
     - git add .  - to add changes made to files to the staging area before being committed.
     - git commit -m "commit description" - to commit changes to a file to the queue ready for the final command.
     - git push - used to send the committed files to the Github repository.
+
+For my git commits I used the following nameing convention to easily identify different types of commit messages; 
+- Feature - feat
+- Bug fix - fix
+- CSS changes - style
+- Document changes - docs
+- General maintenance - maint
 
 ### GitHub Pages
 
