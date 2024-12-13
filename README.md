@@ -72,7 +72,7 @@ Potential features to include:
     
     Acceptance Criteria:
     * A booking inquiry form for group classes or one to one sessions is easy to find, and the form is simple and easy to use.
-    * The form includes all necessary fields to gather details: Name, Email, Phone Number, Class Type and Message. Event types are: Group Class, One to One Training, Nutrition advice, Sports therapy.
+    * The form includes all necessary fields to gather details: Name, Email and Class Type. Event types are: Group Class, One to One Training, Nutrition advice, Sports therapy.
     * All fields on the form must be completed before the user can submit the form.
     * When the form is completed correctly, the user is taken to a success page.
 
@@ -143,25 +143,25 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 ![image of the wireframes for desktop](assets/images/wireframe-desktop-home-gallery-contact.png)
 
 ## Features
-### Responsive on all device sizes, including mobile, tablet and desktop. 
+#### Responsive on all device sizes, including mobile, tablet and desktop. 
 #### Home page (Index)
 * Navigation Bar 
-- Displays hamburger icon on smaller screens that expands a toggled menu. 
-- On larger screens over 768px the menu fully expands to display all page links on the left.
+    - Displays hamburger icon on smaller screens that expands a toggled menu. 
+    - On larger screens over 768px the menu fully expands to display all page links on the left.
 
 * Header
-- Displays at the top of all three pages with an identical style. 
-- Links to all three pages. 
-- Google fonts was used to give the logo header a different style to the main content. 
+    - Displays at the top of all three pages with an identical style. 
+    - Links to all three pages. 
+    - Google fonts was used to give the logo header a different style to the main content. 
 
 * Homepage 
-- The homepage features a hero image of a boxer throwing a punch, capturing the essence of the club.
-- The reasons section focuses on four main reasons why people should join the club. The sections are responsive to changes in screen size. They are ordered vertically for mobnile screens and adjust their position when transitioning to tablet and larger screen sizes. 
-- Includes an image of a professional boxer sparring which on mobnile screens appears below the reasons section but is resaponsive and moves to the center of the section on larger screens. 
-- The session times section at the bottom shows the different types of sessions the club offers, how long the sessions are and the days and times they take place.
+    - The homepage features a hero image of a boxer throwing a punch, capturing the essence of the club.
+    - The reasons section focuses on four main reasons why people should join the club. The sections are responsive to changes in screen size. They are ordered vertically for mobnile screens and adjust their position when transitioning to tablet and larger screen sizes. 
+    - Includes an image of a professional boxer sparring which on mobnile screens appears below the reasons section but is resaponsive and moves to the center of the section on larger screens. 
+    - The session times section at the bottom shows the different types of sessions the club offers, how long the sessions are and the days and times they take place.
 
 * Footer
-- This section includes links to Facebook, Twitter, YouTube and Instagram. The spacing of the links automatically adjusts to the screen width. 
+    - This section includes links to Facebook, Twitter, YouTube and Instagram. The spacing of the links automatically adjusts to the screen width. 
 
 #### Gallery page
 * The gallery page is designed to show potential members what to expect to see at the club and shows great examples of classes, one to one sessions and kids club. 
@@ -170,15 +170,19 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 
 #### Contact page 
 * On this page there is some imformative text instructing how to fill out the form and a useful link to the index page session times section to help users with their session selection.
-The form contains placeholder text, giving an example of what data the user should input.
-Both sections are basic with no distractions, it is clear on what the user is expected to do, if they are interested in taking their interest to the next level in becoming a member, and joining the club.
-#### Interactive elements:
-    - Navbar display functional hamburger icon that extends to show menu. 
-    - Menu links to all three pages allowing users to navigate between the content. 
-    - The header logo links back to the index page. 
-    - Social media icons on all page footers that open up sites in a new browser tab. 
-    - Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, selct a session preference and submit the form. 
-* Favicon used to insert boxing glove icon into the head section of the HTML code. 
+* The contact form contains placeholder text which gives the user an example of what data should be input.
+* This section is simple making it clear on what the user is expected to do if they are interested in bokking a session of their choosing.
+
+#### Interactive elements
+* Favicon used to insert boxing glove icon into the head section of the HTML code.
+* Navbar display functional hamburger icon that extends to show menu. 
+* Menu links to all three pages allowing users to navigate between the content. 
+* The header logo links back to the index page. 
+* Social media icons on all page footers that open up sites in a new browser tab. 
+* Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, selct a session preference and submit the form.
+
+### Future Features 
+* It wou
 
 ## Technologies Used
 
