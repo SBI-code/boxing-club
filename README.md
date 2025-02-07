@@ -236,6 +236,7 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 * Family members were asked to review the site and test the responsiveness to find any bugs and/or user experience issues.
 
 ### Testing User Stories from User Experience (UX) Section
+#### User story 1 
 * First time visitor 
     - As a first time visitor I was able to easily understand the purpose of the site and the services offered.
     - I was able to read more about the reasons I should consider joining which were laid out in a clear and concise manner. 
@@ -321,7 +322,7 @@ The project was deployed to GitHub Pages using the following steps
 
 * My Mentor for continuous helpful feedback.
 * Tutor support at Code Institute for their amazing help and support.
-* I would also like to credit the Love Running project walkthrough, for inspiration on the layout and style of the Home, Gallery and Contact pages for the header, main, footer and basic page design.
+* I would also like to credit the Love Running project walkthrough, for inspiration on the layout and style of the Home, Gallery and Contact pages for the header, main, footer and basic page design. 
 
 
 
