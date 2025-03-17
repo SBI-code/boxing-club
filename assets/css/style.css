@@ -234,8 +234,10 @@ main {
 
 #contact-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(41, 41, 41, 0.85);
     padding: 20px;
+    border: 2px solid #ffffff; 
+    border-radius: 10px;
 }
 
 #contact-form>h2 {
