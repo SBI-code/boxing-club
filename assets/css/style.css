@@ -18,8 +18,9 @@ body {
     font-family: 'Encode Sans SC', sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
@@ -55,7 +56,7 @@ header a {
     color: #ffffff;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -125,6 +126,44 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
+}
+
+/* About us section */
+#about {
+    text-align: center;
+    padding: 60px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* Space between paragraphs */
+#introduction p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Quote Styling */
+#quote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#group-team-bg {
+    background: url('../images/group.jpg') no-repeat top center / cover;
+    height: 50vw;
+    width: 100vw;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+#about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Reasons section */
@@ -199,10 +238,13 @@ main {
 #photos img {
     width: 100%;
     line-height: 1em;
+    display: block;
 }
 
 #photos {
     line-height: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Contact page */
@@ -236,7 +278,7 @@ main {
     color: #ffffff;
     background-color: rgba(41, 41, 41, 0.85);
     padding: 20px;
-    border: 2px solid #ffffff; 
+    border: 2px solid #ffffff;
     border-radius: 10px;
 }
 
@@ -301,6 +343,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -314,7 +357,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
