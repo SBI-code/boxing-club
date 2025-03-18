@@ -350,6 +350,14 @@ footer {
     text-decoration: underline;
 }
 
+/* Media query: phones (576px and down) */
+@media screen and (max-width: 576px) {
+    #hero {
+        max-height: 50vh;
+        background-position: center top;
+    }
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     /* Gallery page */
