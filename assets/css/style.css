@@ -24,6 +24,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
 .hidden-heading {
@@ -130,16 +131,21 @@ main {
 
 /* About us section */
 #about {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#about h2 {
+    margin-bottom: 20px;
     text-align: center;
-    padding: 60px;
-    background-color: #1a1a1a;
-    color: white;
+    font-size: 180%;
+    color: #000000;
 }
 
 /* Space between paragraphs */
 #introduction p {
-    margin-bottom: 15px;
-    line-height: 1.6;
+    line-height: 20px;    
+    margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -151,7 +157,7 @@ main {
 }
 
 #group-team-bg {
-    background: url('../images/group.jpg') no-repeat top center / cover;
+    background: url('../images/group.jpg') no-repeat top right / cover;
     height: 50vw;
     width: 100vw;
     margin-bottom: 20px;
@@ -162,7 +168,6 @@ main {
 
 #about-image {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -384,6 +389,27 @@ footer {
         right: 50px;
     }
 
+    /* About section */
+    #introduction {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #introduction>div {
+        width: 70%;
+    }
+
+    #introduction>div {
+        text-align: center;
+        align-self: flex-start;
+    }
+
+    #about-image {
+        text-align: end;
+        align-self: center;
+    }
+
     /* Reasons section */
     #benefits-a,
     #benefits-b {
@@ -450,6 +476,27 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+    /* Reason section */
+    #introduction {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about>div {
+        flex: 1;
+    }
+
+    #about-image {
+        order: 1
+    }
+
+    #introduction {
+        order: 0;
+    }
+
+    #introduction>div {
+        align-self: flex-start;
+    }
 
     /* Reason section */
     #benefits {
