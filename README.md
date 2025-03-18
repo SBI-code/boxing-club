@@ -147,7 +147,12 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 #### Home page (Index)
 * Navigation Bar 
     - Displays hamburger icon on smaller screens that expands a toggled menu. 
+
+    ![screenshot of nav toggle](assets/images/feat01.png)
+
     - On larger screens over 768px the menu fully expands to display all page links on the left.
+
+    ![screenshot of full menu](assets/images/feat02.png)
 
 * Header
     - Displays at the top of all three pages with an identical style. 
@@ -156,32 +161,72 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 
 * Homepage 
     - The homepage features a hero image of a boxer throwing a punch, capturing the essence of the club.
+
+    ![screenshot of hero image](assets/images/feat03.png)
+
+    - The about section explains what teh purpose of the club is, what qa member can expect and do. This is responsive to changes in screen size. The text and image placements expand and adjust with an expanding screen to ultimately display the text and image side by side for the largest screens size. Includes a quote from Muhammad Ali and picture of the main team who run the club.
+
+    ![screenshot of about section](assets/images/feat04.png)
+    ![screenshot of about section on larger screen](assets/images/feat05.png)
+
     - The reasons section focuses on four main reasons why people should join the club. The sections are responsive to changes in screen size. They are ordered vertically for mobile screens and adjust their position when transitioning to tablet and larger screen sizes. 
     - Includes an image of a professional boxer sparring which on mobile screens appears below the reasons section but is responsive and moves to the centre of the section on larger screens. 
-    - The session times section at the bottom shows the different types of sessions the club offers, how long the sessions are and the days and times they take place.
+
+    ![screenshot of reasons section mobile](assets/images/feat06.png)
+    ![screenshot of reasons section tablet](assets/images/feat07.png)   
+    ![screenshot of reasons section larger screen](assets/images/feat08.png)
+
+    - The session times section at the bottom shows the different types of sessions the club offers, how long the sessions are, how much they cost, and the days and times they take place. They are ordered vertically for mobile screens and adjust their position when transitioning to tablet and larger screen sizes.
+
+    ![screenshot of session times vertical](assets/images/feat09.png)
+
+    ![screenshot of session times transitioning](assets/images/feat10.png)
+
+    ![screenshot of session times transitioning](assets/images/feat11.png)
+
+    ![screenshot of session times transitioning](assets/images/feat12.png)
+
+    ![screenshot of session times horizontal](assets/images/feat13.png)
 
 * Footer
-    - This section includes links to Facebook, Twitter, YouTube and Instagram. The spacing of the links automatically adjusts to the screen width. 
+    - This section includes links to Facebook, Twitter, YouTube and Instagram. It also includes the address of teh club which is available on all pages and a direct link to the contact page. The spacing of the links automatically adjusts to the screen width. 
+
+    ![screenshot of footer small screen](assets/images/feat14.png)
+    ![screenshot of footer large screen](assets/images/feat15.png)
 
 #### Gallery page
 * The gallery page is designed to show potential members what to expect to see at the club and shows great examples of classes, one to one sessions and kids club. 
 * No text has been used on this page to keep the focus on the purpose of showcasing images.
 * The images are responsive on different screen sizes and the number of columns displayed varies depending on the screen size.
 
+    ![screenshot of one column](assets/images/feat16.png)
+
+    ![screenshot of two columns](assets/images/feat17.png)
+
+    ![screenshot of three columns](assets/images/feat18.png)
+
+    ![screenshot of four columns](assets/images/feat19.png)
+
 #### Contact page 
 * On this page there is some informative text instructing how to fill out the form and a useful link to the index page session times section to help users with their session selection.
 * The contact form contains placeholder text which gives the user an example of what data should be input.
 * This section is simple making it clear on what the user is expected to do if they are interested in booking a session of their choosing.
 
+    ![screenshot of contact form](assets/images/feat20.png)
+
 #### Interactive elements
 * Favicon used to insert boxing glove icon into the head section of the HTML code.
-* Navbar display functional hamburger icon that extends to show menu. 
-* Menu links to all three pages allowing users to navigate between the content. 
+
+    ![screenshot of favicon](assets/images/feat21.png)
+
+* Navbar display functional hamburger icon that extends to show menu. (screenshot covered in features section above)
+* Menu links to all three pages allowing users to navigate between the content. (screenshot covered in features section above)
 * The header logo links back to the index page. 
-* Social media icons on all page footers that open up sites in a new browser tab. 
-* Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, select a session preference and submit the form.
+* Social media icons on all page footers that open up sites in a new browser tab. (screenshot covered in features section above)
+* Contact form on contact page that includes link to session times section in the index page and allows users to enter their contact information, select a session preference and submit the form. (screenshot covered in features section above)
 
 ### Future Features 
+In future plans I intend to develop the (could-have) user stories (7 and 8)
 * I would like to present testimonials and reviews from other members so they can read the experiences from others and make a more informed decision. 
 * I would also like to create a newsletter sign up form for users to stay updated on special offers, the latest news and upcoming events.
 * It would be great to include an area to the contact page that shows the Clubs Address, Phone number, Email address and Opening times. 
@@ -209,6 +254,12 @@ The following displays the different interfaces on Home, Gallery and Contact pag
     * GitHub is used to store the projects code after being pushed from Git.
 1. Balsamiq:
     * Balsamiq was used to create the wireframes during the design process.
+1. [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [Flexbox Froggy](https://flexboxfroggy.com/) 
+    * Used for an more responsive layout with enhanced styling.
+1. [Visual Studio Code](https://code.visualstudio.com/) 
+    * Used as a cloud based IDE for development after transition over from gitpod.
+1. [WAVE tool](https://wave.webaim.org/) 
+    * Used for web accessibility evaluation. 
 
 ## Testing
 
@@ -374,7 +425,28 @@ The project was deployed to GitHub Pages using the following steps
 2. Clicking on new workspace and in putting the repository URL, 
 3. The IDE was created.
 
-    I could also click on the 'Gitpod' button in the top righthand corner of my repository page on github which would redirect me straight into my workspace.
+    I could also click on the 'Gitpod' button in the top right-hand corner of my repository page on github which would redirect me straight into my workspace.
+
+### Visual Studio Code
+
+I had to switch over from using Gitpod to VS Code due to an institutional decision to make the switch.
+
+1. I followed the tutorials to set up VS Code and all other required installations on my laptop,
+2. I created folders for vscode-projects in my folders, 
+3. I added folders specific to the memory game,
+4. I opened te project folder in VS Code,
+5. On GitHub i navigated to my repository and copied the HTTPS URL,
+6. Back to VS Code, i then used git clone followed by the copied URL to connect my GitHub repository to VS Code.
+7. And finally a quick check to make sure it was all connected by pushing a small change to see if the commit appeared on GitHub.
+
+### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/SBI-code/memory-game)
+2. At the top of the Repository just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should have a copy of the original repository in your own GitHub account.
 
 ## Credits
 
