@@ -340,6 +340,11 @@ footer {
     color: #ffffff;
 }
 
+#contact-link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     /* Gallery page */
