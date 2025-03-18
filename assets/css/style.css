@@ -131,22 +131,23 @@ main {
 
 /* About us section */
 #about {
-    width: 90%;
-    margin: 20px auto;
+    background-color: #000000;
 }
 
 #about h2 {
-    margin-bottom: 20px;
+    margin: 20px 20px;
     text-align: center;
     font-size: 180%;
-    color: #000000;
+    color: #ffffff;
 }
 
 /* Space between paragraphs */
 #introduction p {
+    width: 90%;
+    margin: 20px auto;
     line-height: 20px;    
-    margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
+    color: #ffffff;
 }
 
 /* Quote Styling */
