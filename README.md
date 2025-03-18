@@ -81,8 +81,8 @@ Potential features to include:
     * Implement HTML validation on the form to fit the requirements above.
     * Create a success page to direct users to after submitting the form.
 
-* #### User Story 6: Visible pricing for sessions and membership levels (should-have)
-    As a potential frequent user, I want to find clear information about upcoming sessions, pricing, membership levels and any related discounts, so I can plan my visit within my budget and time constraints.
+* #### User Story 6: Visible pricing for sessions (should-have)
+    As a potential frequent user, I want to find clear information about upcoming sessions, pricing, and any related discounts, so I can plan my visit within my budget and time constraints.
 
     Acceptance Criteria:
     * Clear and accurate pricing information for sessions is displayed and easy to find.
