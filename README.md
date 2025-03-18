@@ -315,6 +315,18 @@ Desktop (DevTools) - Works as expected
 
 ![Desktop screenshot](assets/images/device-desktop.png)
 
+## Solved Bugs
+
+Sufficed to say there have been plenty of learning opportunities while developing this site.
+I ran my code through HTML and CSS validation services at various points periodically and used Google Developer Tools to identify and correct style issues. 
+I had a mid-project run through meeting with my mentor who reviewed my HTML and CSS for the Home page before I went on to create the Gallery and Contact pages to save time with any issues that might have come up.
+
+#### My process for approaching issues has been as follows, upon identifying an error: 
+* I reviewed the course content to go back to first principles see if I could find a solution there. 
+* Research online.
+* Review slack channels to see if other students ran into the same issue.
+* If I spent more that 30 mins with no solution, I would contact tutor support for help and advice which happened a few times to correct minor errors in the styling. 
+
 ### Testing User Stories from User Experience (UX) Section
 #### User Story Tests
 This testing ensures that the core mechanics work properly and provides fixes for identified issues. Only user stories tagged (Must-Have) and (Should-Have) have been developed so these are the user stories that have been tested below.
@@ -365,22 +377,9 @@ This testing ensures that the core mechanics work properly and provides fixes fo
 * Result: All pricing details were visible.
 * Fix: No fix required.
 
-## Solved Bugs
-
-Sufficed to say there have been plenty of learning opportunities while developing this site.
-I ran my code through HTML and CSS validation services at various points periodically and used Google Developer Tools to identify and correct style issues. 
-I had a mid-project run through meeting with my mentor who reviewed my HTML and CSS for the Home page before I went on to create the Gallery and Contact pages to save time with any issues that might have come up.
-
-#### My process for approaching issues has been as follows, upon identifying an error: 
-* I reviewed the course content to go back to first principles see if I could find a solution there. 
-* Research online.
-* Review slack channels to see if other students ran into the same issue.
-* If I spent more that 30 mins with no solution, I would contact tutor support for help and advice which happened a few times to correct minor errors in the styling. 
-
-#### Details of specific fixes: 
+#### Details of specific fixes that did not come directly from user stories: 
 * Fixed margin-top for main element so it appears under the fixed header.
 * Fixed bug that was preventing the social network icons styling to apply to the gallery page footer by removing an extra space in the id text.
-* Inserted cropped version of the Hero image so it is better positioned on larger screens as image was not rendering correctly.
 * The margin for the home page was causing a white line to appear just above the Hero image. This was fixed by reducing the margin size of the main content.
 * Bug that was causing the logo text to wrap when the screen was being adjusted between 770 to 820px. Corrected using ‘nowrap’ and adjusting menu and logo sizes. 
 * Empty navbar form label error highlighted by web accessibility evaluation tool (WAVE). Corrected by adding an ‘aria-hidden’ attribute to the label element and adding a span to the label with a class and content value which was set to ‘display: none’. The HTML was replicated onto the Gallery and Contact pages.
@@ -390,6 +389,10 @@ I had a mid-project run through meeting with my mentor who reviewed my HTML and 
 * Added hidden-heading class to gallery heading to prevent the heading from partially showing in screen sizes lower than tablet size.
 * Reason section paragraphs showing the wrong way around on larger screens so reviewed the CSS and adjusted the styles to target to correct paragraphs. 
 * Bug was causing the bottom of the contact form to overflow past the footer when reducing the vertical height of the site on desktop. Corrected by removing the absolute positioning that was previously set and added a margin bottom. 
+
+### Unfixed Bugs
+
+There are no active bugs as far as i am aware.
 
 ## Deployment
 
