@@ -228,24 +228,91 @@ I ran the page through Lighthouse to ensure my site is easy to read and nicely a
 
   ![Screenshot of the css results](assets/images/css-checker-results.png) 
 
-### Further Testing
-* I tested the site on Google Chrome, Safari and Firefox, and it functions well on these browsers.
-* I tested all links on the pages to ensure they were working as intended.
-* I tested all external links to ensure they work.
-* I tested the contact form and it submits the all the information successfully.
-* Family members were asked to review the site and test the responsiveness to find any bugs and/or user experience issues.
+### Browser Compatibility 
+
+I've tested the deployed project on various browsers to check for compatibility issues.
+
+Chrome - Works as expected 
+
+![Chrome screenshot](assets/images/browser-chrome.png)
+
+Firefox - Works as expected 
+
+![Firefox screenshot](assets/images/browser-firefox.png)
+
+Edge - Works as expected 
+
+![Edge screenshot](assets/images/browser-edge.png)
+
+### Responsiveness 
+
+I've tested the deployed project on multiple devices to check for responsiveness issues.
+
+Mobile (DevTools) - Works as expected
+
+![Mobile screenshot](assets/images/device-phone.png)
+
+Tablet (DevTools) - Works as expected
+
+![Tablet screenshot](assets/images/device-tablet.png)
+
+Laptop (DevTools) - Works as expected
+
+![Laptop screenshot](assets/images/device-laptop.png)
+
+Desktop (DevTools) - Works as expected
+
+![Desktop screenshot](assets/images/device-desktop.png)
 
 ### Testing User Stories from User Experience (UX) Section
-#### User story 1 
-* First time visitor 
-    - As a first time visitor I was able to easily understand the purpose of the site and the services offered.
-    - I was able to read more about the reasons I should consider joining which were laid out in a clear and concise manner. 
-    - I could navigate between the different pages easily reviewing the gallery which presented interesting images giving me an idea of what to expect. 
-    - I was able to comeplete and successfully submit the form on the contact page. 
+#### User Story Tests
+This testing ensures that the core mechanics work properly and provides fixes for identified issues. Only user stories tagged (Must-Have) and (Should-Have) have been developed so these are the user stories that have been tested below.
 
-* Returning visitor
-    - I was able to scroll to the bottom of the page to clearly see the session times section where I got the information I was looking for on session dates. 
-    - I found links to the social media pages so I can go to the communities there and interact with other members and get up to date news.
+#### User Story 1: User-friendly navigation and responsive design (Must-Have)
+* Expected: The website should be fully responsive and allow users to easily navigate between sections across different devices.
+* Testing: Tested the website on multiple devices (desktop, tablet, and mobile) and navigated through different sections.
+* Result: On smaller screens, some menu items were not listed, making navigation difficult and navbar hamburger icon was not displaying in the correct place.
+* Fix: Added lists to menu items, adjusted CSS styles and corrected the navigation bar to collapse into a hamburger menu on the right of the page heading.
+
+![bug01 screenshot](assets/images/bug01.png)
+
+#### User Story 2: Images and engaging descriptions (Must-Have)
+* Expected: The homepage should display a responsive image of a boxer, along with clear descriptions of the boxing club’s offerings.
+* Testing: Loaded the homepage on different screen sizes and checked whether images scaled properly. Also reviewed the readability of class descriptions. 
+* Result: Image was stretched and some text overlapped on smaller screens, making descriptions hard to read. About section introduction text and about image were not showing correctly on larger screen sizes.
+* Fix: Adjusted CSS to ensure image remained responsive, adjusted image size and adjusted text to maintain proper spacing and readability. Adjusted the HTML to place the image div in a new div with the introduction and reviewed the flexbox styling.
+
+![bug screenshot](assets/images/bug02.png)
+
+#### User Story 3: Showcase boxers and the club setting on a separate Gallery page (Must-Have)
+* Expected: The gallery page should feature a grid layout of boxers, club settings, and equipment.
+* Testing: Navigated to the Gallery page and observed the layout on different screen sizes.
+* Result: The grid layout displayed inconsistently on some devices, with some images getting cut off.
+* Fix: Adjusted CSS style settings to ensure a consistent display on all screen sizes by adding media queries with column counts.
+
+![bug screenshot](assets/images/bug03.png)
+
+#### User Story 4: Location, contact details, and opening hours (Must-Have)
+* Expected: The location, contact details, and opening hours should be visible and easily accessible from all pages.
+* Testing: Checked links in footers to verify if the contact section was accessible and properly displayed. Loaded the pages on multiple screen sizes to check responsivity.
+* Result: Address details were not clearly visible on mobile screens and social media icons were squished.
+* Fix: Moved the address and contact link to a list and paragraph in the footer for consistent visibility across all pages.
+
+![bug screenshot](assets/images/bug04.png)
+
+#### User Story 5: Contact us inquiry form (Must-Have)
+* Expected: The booking inquiry form should be simple, require all fields, and take the user to a success page upon submission.
+* Testing: Filled out the form with valid and invalid inputs to test validation and redirection.
+* Result: The form allowed submission but issues with placeholder text not showing in the entry fields.
+* Fix: Corrected the placeholder elements in the contact HTML.
+
+![bug screenshot](assets/images/bug05.png)
+
+#### User Story 6: Visible pricing for sessions (Should-Have)
+* Expected: Pricing information should be clearly displayed alongside session details.
+* Testing: Navigated to the pricing section and checked if all session rates were visible.
+* Result: All pricing details were visible.
+* Fix: No fix required.
 
 ## Solved Bugs
 
