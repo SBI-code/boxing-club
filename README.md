@@ -197,7 +197,7 @@ The following displays the different interfaces on Home, Gallery and Contact pag
 #### Gallery page
 * The gallery page is designed to show potential members what to expect to see at the club and shows great examples of classes, one to one sessions and kids club. 
 * No text has been used on this page to keep the focus on the purpose of showcasing images.
-* The images are responsive on different screen sizes and the number of columns displayed varies depending on the screen size.
+* The images are responsive on different screen sizes using a masonary grid and the number of columns and rows displayed varies depending on the screen size.
 
     ![screenshot of one column](assets/images/feat16.png)
 
